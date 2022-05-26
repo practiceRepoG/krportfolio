@@ -22,6 +22,7 @@ workBtn.addEventListener('click', function () {
     workBtn.disabled = true;
     aboutBtn.disabled = true;
     workInfoDiv.style = 'display: block';
+    eka.style = 'display: none';
     makeShipDisappear(true);
     let work = document.getElementsByClassName('commonProfile');
     work[0].style = 'display: block';
